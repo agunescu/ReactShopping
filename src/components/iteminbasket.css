@@ -1,0 +1,8 @@
+
+@import './css-shared/variables.css';
+
+.itemBox {
+    display: flex;
+    justify-content: space-between;
+    padding: .4em 0;
+}

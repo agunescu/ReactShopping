@@ -1,0 +1,30 @@
+@import './css-shared/variables.css';
+
+.itemContainer {
+    background-color: var(--indianBlue);
+    margin-bottom: 1em;
+    border-radius: 2px;
+    padding: 1.5em;
+    box-shadow: 3px 3px var(--yellow);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.productName {
+    color: var(--lime);
+    margin-right: .5em;
+}
+
+.price {
+    padding-left: .5em;
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+.addCartBtn {
+    padding: .5em;
+    background-color: var(--acidGreen);
+    padding: .5em;
+    border-radius: 2px;
+}
